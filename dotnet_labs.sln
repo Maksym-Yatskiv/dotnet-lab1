@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet_labs", "Lab1\dotnet_labs.csproj", "{77595F42-13C0-47D2-88D0-849EB6D3A060}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculation_Test", "Calculation_Test\Calculation_Test.csproj", "{D796ADC6-FD45-4D44-85DC-B1D8C668AEC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{77595F42-13C0-47D2-88D0-849EB6D3A060}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77595F42-13C0-47D2-88D0-849EB6D3A060}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77595F42-13C0-47D2-88D0-849EB6D3A060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D796ADC6-FD45-4D44-85DC-B1D8C668AEC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D796ADC6-FD45-4D44-85DC-B1D8C668AEC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D796ADC6-FD45-4D44-85DC-B1D8C668AEC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D796ADC6-FD45-4D44-85DC-B1D8C668AEC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
