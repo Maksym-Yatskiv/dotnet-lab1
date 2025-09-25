@@ -13,7 +13,8 @@ namespace Lab1.lab1
 
         private double f1(double x)
         {
-            return 2 * Math.Sqrt(Math.Abs(x * x * x)) * Math.Sin(x * x * x);
+            // return 2 * Math.Sqrt(Math.Abs(x * x * x)) * Math.Sin(x * x * x);
+            return x * x * x - x * x;
         }
         private double f2(double x)
         {

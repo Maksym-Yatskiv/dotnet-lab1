@@ -1,3 +1,4 @@
+﻿using dotnet_labs;
 using Lab1.lab1;
 using System.Globalization;
 
@@ -10,20 +11,6 @@ namespace Lab1
             InitializeComponent();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -34,7 +21,7 @@ namespace Lab1
             h = Convert.ToDouble(this.textBox3.Text, CultureInfo.InvariantCulture);
             a = Convert.ToDouble(this.textBox4.Text, CultureInfo.InvariantCulture);
 
-            dataGridView1.Rows.Clear();
+            //dataGridView1.Rows.Clear();
             chart1.Series[0].Points.Clear();
             tabul.calculate(xn, xk, h, a);
 
@@ -47,9 +34,23 @@ namespace Lab1
             }
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void одновимірніМасивиToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Show();
+            this.Hide();
+        }
+
+        private void двовимірніМасивиToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.Show();
+            this.Hide();
         }
     }
 }
